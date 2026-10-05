@@ -1,0 +1,16 @@
+.honeypot{position:absolute!important;left:-9999px!important;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none}
+.lead-card{background:#fff;color:#001d36;padding:24px;border-top:4px solid #ff742d;box-shadow:4px 4px 0 0 #070E17;font-family:"DM Sans",sans-serif;text-align:left}
+.lead-card form{display:flex;flex-direction:column;gap:16px;margin:0}
+.lead-card .lf-field{display:flex;flex-direction:column;gap:4px}
+.lead-card label.lf-label{font-family:"Oswald",sans-serif;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#001d36}
+.lead-card input[type=text],.lead-card input[type=tel],.lead-card input[type=email],.lead-card textarea{width:100%;box-sizing:border-box;background:#f2f4f7;border:1px solid #c4c9d1;padding:12px 14px;font:400 16px "DM Sans",sans-serif;color:#001d36;border-radius:0}
+.lead-card textarea{resize:none}
+.lead-card input:focus,.lead-card textarea:focus{outline:2px solid #ff742d;outline-offset:0}
+.lead-card button[type=submit]{width:100%;background:#ff742d;color:#1b0600;border:0;padding:16px 24px;font:600 16px "Oswald",sans-serif;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;box-shadow:4px 4px 0 0 #070E17}
+.lead-card button[type=submit]:hover{background:#e8601a}
+.lead-card [role=status]{min-height:0;font:500 14px "DM Sans",sans-serif;color:#7a2e00}
+.lead-card [role=status]:empty{display:none}
+.lead-success{text-align:center;padding:16px 8px;color:#0b6b4f}
+.lead-success h2{font:600 28px "Oswald",sans-serif;text-transform:uppercase;margin:12px 0 8px;color:#001d36}
+.lead-success p{font:400 16px "DM Sans",sans-serif;color:#001d36;margin:0 0 16px}
+.lead-success__again{background:#001d36;color:#fff;border:0;padding:12px 20px;font:600 14px "Oswald",sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
