@@ -57,7 +57,7 @@ This is an unchanged test, not a production release. No issues below were fixed.
 - **Wrong:** Very technical language makes the offer harder to scan: "hydraulic scouring", "subterranean analysis", "hydro-lock" and "optic telemetry" need plain-language review.
 - **Wrong:** Guarantees and specifications are unsupported, including 1,500-4,000 PSI, 18 GPM and pipe-preservation promises. General technical plausibility is not proof of this provider's capability or a safe result on a particular pipe.
 - **Wrong:** All fourteen page titles are the same `Wadsworth Hydro Jetting Pros`, not unique service/neighborhood titles.
-- **Missing:** Seven of fourteen full pages lack a meta description; six lack a canonical tag.
+- **Missing:** Seven of fourteen full pages lack a meta description; five lack a canonical tag.
 - **Wrong:** Existing canonicals point to `wadsworthhydrojettingpros.com`, not the Pages test URL. They were preserved, not approved or verified as a production domain.
 - **Wrong:** Form appearance is not lead delivery. The exact required `page_` fields and accepted-response behavior are absent.
 - **Missing:** Licensed image provenance and honest illustrative labeling. Some informative images have no alt text.
@@ -128,7 +128,7 @@ This is the largest functional failure. Forms look finished but are prototypes.
 - **Wrong:** Commercial form handler prevents default submission, displays `formSuccess` and resets the form without a request.
 - **Wrong:** Services hub immediately alerts `Transmission confirmed. Dispatch unit notified for Wadsworth address.` without sending anything.
 - **Wrong:** Several other forms simply unhide a feedback block. That is not accepted CRM receipt.
-- **Wrong:** Home prevents default submission in its inline script and shows a dispatch alert, again without a delivery request.
+- **Wrong:** Home has `action="#"` and `method="POST"`, with no submission handler or delivery endpoint. It posts back to the static page rather than the CRM. Other exported forms without a method default to GET and can put entered personal details in query strings. No form was submitted during this review.
 - **Missing:** Required US phone validation/normalization, confirmed-response-only Request Received card, 12-second failure handling, retained inputs and actual CRM test evidence.
 - **Missing:** Actual recipient/privacy disclosure and applicable consent. No test leads were submitted on GitHub Pages.
 
@@ -370,3 +370,7 @@ Every link below opens an exported mockup directly. This does not mean the site 
 | input | phone | phone | tel | yes |
 | input | email | email | email | yes |
 | textarea | incident | incident | textarea | yes |
+
+## Live visual check
+
+The GitHub Pages homepage was opened at 1280px desktop and 390px mobile widths. The logo, fonts, dark/orange theme and phone CTAs rendered. No horizontal overflow was found at either width. The desktop phone wraps onto two lines in the header. Mobile stacks the oversized heading and explanations before the form, pushing the form well below the first screen. The fixed orange call CTA overlaps readable text and form space on both layouts. These original design issues were not changed. The phone link target is correct, but call routing was not tested. No form was submitted. This was a homepage visual check, not a full interactive test of every exported screen.
