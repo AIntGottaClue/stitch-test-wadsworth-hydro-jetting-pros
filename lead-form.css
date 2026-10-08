@@ -18,3 +18,5 @@
 
 /* Keep the header phone number on one line without crowding navigation. */
 header a[href^="tel:"]{font-size:16px;line-height:1.25;white-space:nowrap}
+
+header a[href^="tel:"]{font-size:16px!important;line-height:1.25!important;white-space:nowrap!important}
