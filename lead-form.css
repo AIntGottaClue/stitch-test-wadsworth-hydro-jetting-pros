@@ -15,8 +15,3 @@
 .lead-success p{font:400 16px "DM Sans",sans-serif;color:#001d36;margin:0 0 16px}
 .lead-success__again{background:#001d36;color:#fff;border:0;padding:12px 20px;font:600 14px "Oswald",sans-serif;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 .lead-card .lf-title{font:600 24px "Oswald",sans-serif;text-transform:uppercase;letter-spacing:.04em;margin:0 0 16px;color:#001d36}
-
-/* Keep the header phone number on one line without crowding navigation. */
-header a[href^="tel:"]{font-size:16px;line-height:1.25;white-space:nowrap}
-
-header a[href^="tel:"]{font-size:16px!important;line-height:1.25!important;white-space:nowrap!important}
