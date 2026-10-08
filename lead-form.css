@@ -22,5 +22,5 @@ header a[href^="tel:"].text-headline-sm{font-size:16px!important;line-height:1.2
 header nav.hidden.xl\:flex{gap:1rem!important}
 header nav.hidden.xl\:flex a,header nav.hidden.xl\:flex button{font-size:12px!important;line-height:16px!important;letter-spacing:.06em!important;white-space:nowrap!important}
 header nav.hidden.xl\:flex>div>button{display:flex;align-items:center;gap:2px}
-header a[href="#contact"].bg-secondary-container{font-size:12px!important;line-height:16px!important;letter-spacing:.04em!important;white-space:nowrap!important;padding:12px 12px!important}
+header a[href="#contact"].bg-secondary-container{font-size:12px!important;line-height:16px!important;letter-spacing:.04em!important;white-space:nowrap!important;padding:12px!important}
 }
